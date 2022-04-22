@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="app.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light justyfy-content-center fs-6 ">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="../Anasayfa/index.html">
+        <img src="img/logo-1.png" alt="logo" style="width:80px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../Anasayfa/index.html">Anasayfa</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Kurumsal
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../Anasayfa/hakkımızda.html">Hakkımızda</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/misyon.html">Vizyon & Misyon</a></li>
+              <li><a class="dropdown-item" href="..//Anasayfa/değerlerimiz.html">Değerlerimiz</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Eğitimler
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../Anasayfa/Temel.html">Temel İş Sağlığı Ve
+                  Güvenliği Eğitimi</a></li>
+              <li><a class="dropdown-item" href="..//Anasayfa/ilkyardım.html">Temel İlkyardım Eğitimi</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/Yangıntatbikat.html">Yangın Ve Tatbikat
+                  Eğitimi</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/Yangın.html">Uygulamalı Yangın Eğitimi</a>
+              </li>
+              <li><a class="dropdown-item" href="../Anasayfa/yüksektecalışma.html">Yüksekte Çalışma Eğitimi</a>
+              </li>
+              <li><a class="dropdown-item" href="../Anasayfa/diğereğitimler.html">Diğer Eğitimleri</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Hizmetler
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../Anasayfa/işgüvenlik.html">İş Güvenliği Uzmanı</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/işyerihekimi.html">İşyeri Hekimi Hizmeti</a></li>
+              <li><a class="dropdown-item" href="..//Anasayfa/sağlıkpersoneli.html">Diğer Sağlık Personeli</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/mobil sağlık.html">Mobil Sağlık Taraması</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/ortam ölçümleri.html">Ortam – Maruziyet Ölçümleri</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/periyodik.html">Periyodik Test ve Kontrolleri</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.mevzuat.gov.tr/"
+              target="_blank">Mevzuatlar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.turkiye.gov.tr/acshb-isg-katip"
+              target="_blank">İSG Takip</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../iletisim/iletişim.html">İletişim</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Slider Baslangic-->
+  <div id="carouselExampleCaptions" class="carousel slide carousel-dark   " data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/ilk.jpg" class="d-block w-100 resimSlider " alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/ikinci.jpg" class="d-block w-100 resimSlider" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/üçüncü.jpg" class="d-block w-100 resimSlider" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/dördüncü.jpg" class="d-block w-100 resimSlider" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Slider Bitis-->
+  <!--Biz Kimiz -->
+  <section id="learn" class="enes p-5 text-dark">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <h2>Neden 2M OSGB?</h2>
+          <ul>
+            <li>Firmanıza sektörünüzde daha önce deneyimli uzman ve hekim ataması gerçekleştiriyoruz</li>
+            <li>Firma şikayetlerini hemen değerlendirip anında çözüme kavuşturuyoruz</li>
+            <li>Kendi iç bünyemizde hizmet kalitemizi sürekli denetliyoruz</li>
+            <li>Sürekli kalite ve eğitim prensibimiz ile çalışanlarımızın profesyonel hizmet vermesini sağlıyoruz</li>
+            <li>Sektörümüzde ki yeni gelişmeleri takip ediyor, anında hizmet verdiğimiz fir-
+              maları haberdar ediyoruz</li>
+          </ul>
+          <a href="http://127.0.0.1:5500/Kurumsal/hakk%C4%B1m%C4%B1zda.html" class=" btn btn-danger mt-3">
+            <i class="bi bi-chevron-right"></i>Kurumsal</a>
+        </div>
+        <div class="col-md">
+          <img src="img/BAYRAMPASA-OSGB-IS-GUVENLIK.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Newletter-->
+  <section class="newletter 
+  text-align p-5 ">
+    <nav class="navbar navbar-dark  ">
+      <div class="container">
+        <div class="text-light">
+          <h3>Hizmetlerimizle İlgili Bilgi Almak için Lütfen İletişime Geçin </h3>
+          <a href="http://127.0.0.1:5500/iletisim/index.html" class="btn btn-danger mt-3">
+            <i class="bi bi-chevron-right"></i>Hemen İletişime Geçin</a>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!--HIZMETLER-->
+  <section class="text-align p-5">
+    <div class="container">
+      <h3 class="text-center">Eğitimlerimiz</h3>
+      <hr>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/is-guvenligi-uzmanligi-vitrin-02-1346c535.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Temel İş Sağlığı Ve Güvenliği Eğitimi</h5>
+              <p class="card-text">Eğitim, değişen ve yeni ortaya çıkan risklere uygun olarak yenilenir ve güvenlik
+                riskleriyle ilgili yeterli bilgi ve talimat almaları sağlanır.Değişen veya ortaya çıkan yeni risklerde
+                dikkate alınarak ... </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/enesfarkli.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Temel İlkYardim Eğitimleri</h5>
+              <p class="card-text">İşyerinde acil bir durum olduğunda (yangın, deprem, zehirlenme, vs.) sağlık
+                ekiplerinin olay yerine intikal edene kadar...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/enes6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Yangın Ve Tatbikat Eğitimi</h5>
+              <p class="card-text"> Birçok afette ve olayda en tehlikeli müdahale şekli; yetersiz bilgi ve yanlış
+                müdahale tarzıdır. Konu hakkında yeterli bilgi ve beceri olmadan yapılan müdahaleler...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/enes3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Uygulamalı Yangın Eğitimi</h5>
+              <p class="card-text">Temel yangın eğitimi; işletme bünyesinde muhtemel çıkabilecek yangın, tehlikelerine
+                karşı önceden hazırlıklı olmak can ve mal kaybını asgariye indirmek amacıyla...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/2_yuksekte-calisma-egitimi_565974a1f3757.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Yüksekte Calışma Eğitimi</h5>
+              <p class="card-text">Yüksekte Çalışma Eğitimleri, Uluslararası Endüstriyel İple Erişim Teknisyeni (IRATA),
+                Yüksekte Çalışma Eğiticisi Sertifikasına sahip A ve B Sınıfı İş Güvenliği Uzmanlarımız ve eğitici
+                eğitimine sahip...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/periyodik-kontroller.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Diğer Eğitimler</h5>
+              <p class="card-text">Periyodik test ve kontroller, makine veya iş ekipmanı kullanılan her işyerlerinde
+                yapılması gereken ve makine muhendisi/teknisyeni gibi teknik personeller...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Hizmetlerimiz-->
+  <section class="text-align p-5">
+    <div class="container">
+      <h3 class="text-center">Hizmetlerimiz</h3>
+      <hr>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/is-guvenligi-uzmanligi-vitrin-02-1346c535.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">İş Güvenliği Uzmanlığı</h5>
+              <p class="card-text">İş sağlığı ve güvenliği çalışma alanında yapılan yetkinlik sınavında başarılı olan ve
+                Bakanlık tarafından sertifikalandırılan... </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/isyeri-hekimligi-vitrin-02.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">İşyeri Hekimliği</h5>
+              <p class="card-text">İşyerinde sağlık hizmetlerini yürütmek ve çalışanların sağlık taramalarını yapmakla
+                görevli kişiler işyeri hekimliği...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Diğer Sağlık Personeli</h5>
+              <p class="card-text">2M OSGB olarak işyerlerinde sağlıklı ve güvenli bir çalışma ortamının oluşması,
+                sağlık ve güvenlik risklerinin önlenmesi ve hizmetlerin yürütülmesi için...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mobil Sağlık Taraması</h5>
+              <p class="card-text">Çalışanın kişisel özellikleri, işyerinin tehlike sınıfı ve işin niteliği öncelikli
+                olarak göz önünde bulundurularak uluslararası standartlar ile işyerinde yapılan...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/isyeri-ortam-olcumleri.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ORTAM – MARUZİYET ÖLÇÜMLERİ</h5>
+              <p class="card-text">İş sağlığı ve güvenliği mevzuatı işletmelerin gerekli durumlarda işyeri ortam
+                ölçümleri yaptırması şart koşmuştur. İşyerinde çalışanları ortamda...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/periyodik-kontroller.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PERİYODİK TEST VE KONTROLLER</h5>
+              <p class="card-text">Periyodik test ve kontroller, makine veya iş ekipmanı kullanılan her işyerlerinde
+                yapılması gereken ve makine muhendisi/teknisyeni gibi teknik personeller...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section class="p-5 text-center" id="carousel1">
+  <div class="container">
+    <h2 class="mb-5 fw-bold">Tamamladığımız Eğitimler</h2>
+        <hr class="ayrac">
+<div class="owl-carousel owl-theme ">
+
+  <div class="item col-md-10">
+    <img src="img/enes1.jpg" alt="">
+  </div>
+  <div class="item col-md-10">
+    <img src="img/enes2.jpg" alt="">
+  </div>
+  <div class="item col-md-10">
+    <img src="img/enes3.jpg" alt="">
+  </div>
+  <div class="item col-md-10">
+    <img src="img/enes4.jpg" alt="">
+  </div>
+  <div class="item col-md-10">
+    <img src="img/enes5.jpg" alt="">
+  </div><div class="item col-md-10">
+    <img src="img/enes6.jpg" alt="">
+  </div>
+</div>
+</div>
+</section> -->
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-dark text-muted text-danger p-5">
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-danger">
+              <i class="fas fa-gem me-3"></i>2M OSGB
+            </h6>
+            <p>
+              2021 Yılından beri deneyim ve uzmanlığın birleştiği noktada danışman Kadromuz deneyimli a,b,c iş güvenliği
+              uzmanları ile Aile, çalışma ve sosyal hizmetler bakanlığı ’ndan akredite mühendislerinden oluşmaktadır.
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-danger">
+              SİTE HARİTASI
+            </h6>
+            <p>
+              <a href="http://127.0.0.1:5500/Anasayfa/index.html" class="text-reset">Anasayfa</a>
+            </p>
+            <p>
+              <a href="http://127.0.0.1:5500/Misyon/index.html" class="text-reset">Vizyon & Misyon</a>
+            </p>
+            <p>
+              <a href="http://127.0.0.1:5500/Kurumsal/hakk%C4%B1m%C4%B1zda.html" class="text-reset">Hakkımızda</a>
+            </p>
+            <p>
+              <a href="https://www.mevzuat.gov.tr/" class="text-reset">Mevzuatlar</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-danger">
+              İLETİŞİM
+            </h6>
+            <p><i class="fas fa-home me-3"></i>Oruçreis Mah. Tekstilkent Cad. A02 Blok No:10 AT İç Kapı
+              No:207,Tekstilkent, Esenler/İstanbul</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              bilgi@2mosgb.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +212 302 51 10</p>
+            <p><i class="fas fa-phone  me-3"></i>+90 543 737 23 11</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <div class="row align-items-center text-center">
+      <div class="col-md-7 col-lg-8">
+        <p>Copyright © 2021 Tüm Hakları 2M OSGB Şirketine Aittir.
+          <a href="#" style="text-decoration: none">
+            <strong>Web Tasarım Enes Karatekin</strong>
+          </a>
+        </p>
+      </div>
+      <div class="col-md-5 col-lg-4">
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/2misgh/" target="_blank" class="btn-floating btn-sm text-white "
+                style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+  </footer>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://wa.me/905437372311?text=Nasıl%20yardımcı%20olabilirim?" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="java.js"></script>
+</body>
+
+</html>

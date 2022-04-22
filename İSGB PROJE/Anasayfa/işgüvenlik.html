@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap"
+      rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="app.css">
+
+    <title>Document</title>
+</head>
+<body>
+   <!--Navbar-->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light justyfy-content-center fs-6 ">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="../Anasayfa/index.html">
+        <img src="img/logo-1.png" alt="logo" style="width:80px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../Anasayfa/index.html">Anasayfa</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Kurumsal
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../Anasayfa/hakkımızda.html">Hakkımızda</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/misyon.html">Vizyon & Misyon</a></li>
+              <li><a class="dropdown-item" href="..//Anasayfa/değerlerimiz.html">Değerlerimiz</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Eğitimler
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../Anasayfa/Temel.html">Temel İş Sağlığı Ve
+                  Güvenliği Eğitimi</a></li>
+              <li><a class="dropdown-item" href="..//Anasayfa/ilkyardım.html">Temel İlkyardım Eğitimi</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/Yangıntatbikat.html">Yangın Ve Tatbikat
+                  Eğitimi</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/Yangın.html">Uygulamalı Yangın Eğitimi</a>
+              </li>
+              <li><a class="dropdown-item" href="../Anasayfa/yüksektecalışma.html">Yüksekte Çalışma Eğitimi</a>
+              </li>
+              <li><a class="dropdown-item" href="../Anasayfa/diğereğitimler.html">Diğer Eğitimleri</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Hizmetler
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../Anasayfa/işgüvenlik.html">İş Güvenliği Uzmanı</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/işyerihekimi.html">İşyeri Hekimi Hizmeti</a></li>
+              <li><a class="dropdown-item" href="..//Anasayfa/sağlıkpersoneli.html">Diğer Sağlık Personeli</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/mobil sağlık.html">Mobil Sağlık Taraması</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/ortam ölçümleri.html">Ortam – Maruziyet Ölçümleri</a></li>
+              <li><a class="dropdown-item" href="../Anasayfa/periyodik.html">Periyodik Test ve Kontrolleri</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.mevzuat.gov.tr/"
+              target="_blank">Mevzuatlar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.turkiye.gov.tr/acshb-isg-katip"
+              target="_blank">İSG Takip</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../iletisim/iletişim.html">İletişim</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--Eğitimler-->
+    <section id="learn" class="p-5 bg-light ">
+      <div class="container">
+        <h3 class="text-center">İş Güvenliği Uzmanı</h3>
+          <div class="row align-items-center justify-content-between">
+              <div class="col-md p-5">
+                <h3>İş Güvenliği Uzmanı</h3>
+                <hr>
+                <p>29.12.2012 tarihli ve 28512 sayılı Resmi Gazete’de yayınlanan “İş Güvenliği Uzmanlarının Görev, Yetki, Sorumluluk ve Eğitimleri Hakkında Yönetmelik” gereği işyerlerinde İş Güvenliği Uzmanları görevlendirme zorunluluğu bulunmaktadır.</p>
+                <p>2M OSGB olarak işletme ve işyerlerinizin tehlike sınıfı ve faaliyet alanına göre yasal yükümlülüklerinin sağlanması için, alanında yetkin A, B ve C sınıfı iş güvenliği uzmanı görevlendirilmesi hizmetlerini gerçekleştirmekteyiz.</p>
+                <p>İş Güvenliği Uzmanlarımız işyeri tehlike sınıfına ve işyerinizdeki mevcut çalışan sayılarına göre yönetmelikte belirtilen sürelerde iş güvenliği uzmanlığı belgesine sahip iş güvenliği uzmanı görevlendirerek bu konudaki sorumluluk ve hizmeti yerine getirmektedir.</p>
+                <P>İş Güvenliği Uzmanlarımız İşyerlerinde yapılan çalışmalar ve yapılacak değişikliklerde ilgili olarak tasarım, makine ve diğer teçhizatın durumu, bakımı, seçimi ve kullanılan maddelerde dahil olmak üzere işin planlanması, organizasyonu ve uygulanması, kişisel koruyucu donanımların seçimi, temini, kullanımı, bakımı, muhafazası ve test edilmesi konularının, iş sağlığı ve güvenliği mevzuatına ve genel iş güvenliği kurallarına uygun olarak sürdürülmesini sağlamak için işverene tavsiyelerde bulunur.</P>
+                
+              </div>
+              <div class="col-md">
+                <img src="img/redd-5U_28ojjgms-unsplash.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+      </div>
+  </section>
+  <section id="learn" class="p-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+                <img src="img/yangin-egitimi-vitrin-673d29a0.webp" class="img-fluid" alt="">
+            </div>
+            <div class="col-md p-5">
+              <h4>İş güvenliği uzmanları, aşağıda belirtilen görevleri yerine getirmekle yükümlüdür</h4>
+              <hr>
+              <div class="col-md fs-6">
+               <h5 class="fs-6">REHBERLİK;</h5>
+              <ul>
+                <li>İşyerinde yapılan çalışmalar ve yapılacak değişikliklerle ilgili olarak tasarım, makine ve diğer teçhizatın durumu, bakımı, seçimi ve kullanılan maddeler de dâhil olmak üzere işin planlanması, organizasyonu ve uygulanması, kişisel koruyucu donanımların seçimi, temini, kullanımı, bakımı, muhafazası ve test edilmesi konularının, iş sağlığı ve güvenliği mevzuatına ve genel iş güvenliği kurallarına uygun olarak sürdürülmesini sağlamak için işverene önerilerde bulunmak.</li>
+                <li>İş sağlığı ve güvenliğiyle ilgili alınması gereken tedbirleri işverene yazılı olarak bildirmek.</li>
+                <li>İşyerinde meydana gelen iş kazası ve meslek hastalıklarının nedenlerinin araştırılması ve tekrarlanmaması için alınacak önlemler konusunda çalışmalar yaparak işverene önerilerde bulunmak.</li>
+                <li>İşyerinde meydana gelen ancak ölüm ya da yaralanmaya neden olmayan çalışana, ekipmana veya işyerine zarar verme potansiyeli olan olayların nedenlerinin araştırılması konusunda çalışma yapmak ve işverene önerilerde bulunmak.</li>
+              </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section id="learn" class="p-5 bg-light ">
+      <div class="container">
+          <div class="row align-items-center justify-content-between">
+              <div class="col-md p-5">
+                <h3 class="fs-6">RİSK DEĞERLENDİRMESİ;</h3>
+                <hr>
+               <ul>
+                 <li>İş sağlığı ve güvenliği yönünden risk değerlendirmesi yapılmasıyla ilgili çalışmalara ve uygulamasına katılmak, risk değerlendirmesi sonucunda alınması gereken sağlık ve güvenlik önlemleri konusunda işverene önerilerde bulunmak ve takibini yapmak.</li>
+               </ul>
+               <h5 class="fs-6">ÇALIŞMA ORTAMI GÖZETİMİ;</h5>
+               <hr>
+               <ul>
+                 <li>
+                  Çalışma ortamının gözetiminin yapılması, işyerinde iş sağlığı ve güvenliği mevzuatı gereği yapılması gereken periyodik bakım, kontrol ve ölçümleri planlamak ve uygulamalarını kontrol etmek.
+                 </li>
+                 <li>
+                  İşyerinde kaza, yangın veya patlamaların önlenmesi için yapılan çalışmalara katılmak, bu konuda işverene önerilerde bulunmak, uygulamaları takip etmek; doğal afet, kaza, yangın veya patlama gibi durumlar için acil durum planlarının hazırlanması çalışmalarına katılmak, bu konuyla ilgili periyodik eğitimlerin ve tatbikatların yapılmasını ve acil durum planı doğrultusunda hareket edilmesini izlemek ve kontrol etmek.
+                 </li>
+               </ul>
+
+              </div>
+              <div class="col-md">
+                <img src="img/mark-potterton-sNVkn3507Oo-unsplash.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+      </div>
+  </section>
+  <section id="learn" class="p-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+                <img src="img/scott-blake-s9XDWLJ_LyE-unsplash.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md p-5">
+              <h3 class="fs-6">EĞİTİM, BİLGİLENDİRME VE KAYIT;</h3>
+              <hr>
+                    <ul>
+                      <li>
+                        Çalışanların iş sağlığı ve güvenliği eğitimlerinin ilgili mevzuata uygun olarak planlanması konusunda çalışma yaparak işverenin onayına sunmak ve uygulamalarını yapmak veya kontrol etmek.
+                      </li>
+                      <li>
+                        Çalışma ortamıyla ilgili iş sağlığı ve güvenliği çalışmaları ve çalışma ortamı gözetim sonuçlarının kaydedildiği yıllık değerlendirme raporunu işyeri hekimi ile işbirliği halinde EK-2’deki örneğine uygun olarak hazırlamak.
+                      </li>
+                      <li>
+                        Çalışanlara yönelik bilgilendirme faaliyetlerini düzenleyerek işverenin onayına sunmak ve uygulamasını kontrol etmek.
+                      </li>
+                      <li>
+                        Gerekli yerlerde kullanılmak amacıyla iş sağlığı ve güvenliği talimatları ile çalışma izin prosedürlerini hazırlayarak işverenin onayına sunmak ve uygulamasını kontrol etmek.
+                      </li>
+                    </ul>
+                  </div>
+
+        </div>
+    </div>
+</section>
+<section id="learn" class="p-5 bg-light ">
+  <div class="container">
+      <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h4 class="fs-6">İLGİLİ BİRİMLERLE İŞBİRLİĞİ;</h4>
+            <hr>
+              <ul>
+                  <li>
+                    İşyeri hekimiyle birlikte iş kazaları ve meslek hastalıklarıyla ilgili değerlendirme yapmak, tehlikeli olayın tekrarlanmaması için inceleme ve araştırma yaparak gerekli önleyici faaliyet planlarını hazırlamak ve uygulamaların takibini yapmak.
+                  </li>
+                  <li>
+                    Bir sonraki yılda gerçekleştirilecek iş sağlığı ve güvenliğiyle ilgili faaliyetlerin yer aldığı yıllık çalışma planını işyeri hekimiyle birlikte hazırlamak.
+                  </li>
+                  <li>
+                    Bulunması halinde üyesi olduğu iş sağlığı ve güvenliği kuruluyla işbirliği içinde çalışmak.
+                  </li>
+                  <li>
+                    Çalışan temsilcisi ve destek elemanlarının çalışmalarına destek sağlamak ve bu kişilerle işbirliği yapmak.
+                  </li>
+          </div>
+          <div class="col-md">
+            <img src="img/vitolda-klein-lAqSzwr5eQc-unsplash.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted text-danger p-5">
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"> 
+          <h6 class="text-uppercase fw-bold mb-4 text-danger">
+            <i class="fas fa-gem me-3"></i>2M OSGB
+          </h6>
+          <p>
+            2021 Yılından beri deneyim ve uzmanlığın birleştiği noktada danışman Kadromuz deneyimli a,b,c iş güvenliği uzmanları ile Aile, çalışma ve sosyal hizmetler bakanlığı ’ndan akredite mühendislerinden oluşmaktadır.
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4 text-danger">
+            SİTE HARİTASI
+          </h6>
+          <p>
+            <a href="http://127.0.0.1:5500/Anasayfa/index.html" class="text-reset">Anasayfa</a>
+          </p>
+          <p>
+            <a href="http://127.0.0.1:5500/Misyon/index.html" class="text-reset">Vizyon & Misyon</a>
+          </p>
+          <p>
+            <a href="http://127.0.0.1:5500/Kurumsal/hakk%C4%B1m%C4%B1zda.html" class="text-reset">Hakkımızda</a>
+          </p>
+          <p>
+            <a href="https://www.mevzuat.gov.tr/" class="text-reset">Mevzuatlar</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4 text-danger">
+           İLETİŞİM
+          </h6>
+          <p><i class="fas fa-home me-3"></i>Oruçreis Mah. Tekstilkent Cad. A02 Blok No:10 AT İç Kapı No:207,Tekstilkent, Esenler/İstanbul</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            bilgi@2mosgb.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +212 302 51 10</p>
+          <p><i class="fas fa-phone  me-3"></i>+90 543 737 23 11</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+    <div class="row align-items-center text-center">
+      <div class="col-md-7 col-lg-8">
+        <p>Copyright © 2021 Tüm Hakları 2M OSGB Şirketine Aittir.
+          <a href="#" style="text-decoration: none">
+            <strong>Web Tasarım Enes Karatekin</strong>
+          </a>
+        </p>
+      </div>
+      <div class="col-md-5 col-lg-4">
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/2misgh/" target="_blank" class="btn-floating btn-sm text-white " style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+       <a href="https://wa.me/905437372311?text=Nasıl%20yardımcı%20olabilirim?" class="float" target="_blank">
+       <i class="fa fa-whatsapp my-float"></i>
+      </a>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  </body>
+  </html>
